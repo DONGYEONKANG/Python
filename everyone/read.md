@@ -3,6 +3,6 @@
 🎈 LEVEL 3: Python Advance
 
 - Variable scope, Lambda, Reduce, Map, Filter, Shallow & Deep Copy, Context Manager
-- Context Manager Annotation, Property, Method Overriding * Overloading
+- Context Manager Annotation, Property, Method Overriding & Overloading
 - Meta class, Descriptor
 - Package
