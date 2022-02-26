@@ -10,7 +10,6 @@ Keyword - Type(name, base, dct), Dynamic metaclass
 1. 메타클래스 동적 생성 중요
 2. 동적 생성한 메타 클래스 -> 커스텀 메타 클래스 생성
 3. 의도하는 방향으로 직접 클래스 생성에 관여 할 수 있는 큰 장점
-
 """
 
 # Ex1
@@ -78,7 +77,7 @@ s3 = type(
         "Sample3",
         (object,),
         dict(attr1=30, attr2=100, add=lambda x, y: x + y,
-             mul=lambda x, y: x * y)
+        mul=lambda x, y: x * y)
           )
 
 print("Ex2 >", s3.attr1)

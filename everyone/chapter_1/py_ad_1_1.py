@@ -61,7 +61,7 @@ def outer(): # Closure
 def func(var):
     x = 10
     def printer():
-        print( "Ex 6 >", "print FUnc Inner" )
+        print( "Ex 6 >", "print Func Inner" )
 
     print("Func Inner", locals()) # 함수안의 지역변수들을 호출한다 !@!!
 
