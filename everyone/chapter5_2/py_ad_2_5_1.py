@@ -1,7 +1,7 @@
 """
 Section 2
 Parallelism with Multiprocessing - Sharing state
-keyword - memory sharingm array, value
+keyword - memory sharing array, value
 """
 
 from multiprocessing import Process, current_process

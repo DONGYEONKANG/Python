@@ -28,8 +28,8 @@ def main():
     p.start()
     logging.info("Main-Process: During Process")
 
-    logging.info("Main-Process: Terminated Process")
-    p.terminate()
+    # logging.info("Main-Process: Terminated Process")
+    # p.terminate()
 
     logging.info("Main-Process: Joined Process")
     p.join()
