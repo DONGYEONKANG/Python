@@ -8,7 +8,7 @@ import requests
 import time
 import multiprocessing
 
-# I/O boundin multiprocess pool 예제
+# I/O bounding multiprocess pool 예제
 # 각 프로세스 메모리 영역에 생성되는 객체(독립적)
 # 함수 실행 할 떄 마다 객체 생성은 좋지 않는다. 각 프로세스마다 할당
 session = None

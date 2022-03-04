@@ -9,7 +9,7 @@ import time
 import concurrent.futures
 import threading
 
-# I/O boundin thread 예제
+# I/O bounding thread 예제
 # 각 스레드에 생성되는 객체(독립된 네임스페이스)
 thread_local = threading.local()  # 각 스레드마다 독립적인 메모리 할당
 
@@ -30,7 +30,7 @@ def request_site(url):
     # print(session, headers)
 
     with session.get(url) as response:
-        print(f"[Reand Contents : {len(response.content)}, Status Code: {response.status_code} from {url}]")
+        print(f"[Read Contents : {len(response.content)}, Status Code: {response.status_code} from {url}]")
 
 
 

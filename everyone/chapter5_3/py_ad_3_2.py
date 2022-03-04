@@ -6,7 +6,7 @@ Keyword - Blocking IO, Non-Blocking IO, Sync, Aync
 """
 """
 
-blokcing I/O vs Non-blocking I/O
+blocking I/O vs Non-blocking I/O
 
     blocking I/O 
     - 시스템 콜 요청시 -> 커널 IO 작업 완료 시 까지 응답 대기(예를 들어 카톡을 보내고 답장이 올때까지 가만히 있느다.. 다른 것들을 하지 않는다.)

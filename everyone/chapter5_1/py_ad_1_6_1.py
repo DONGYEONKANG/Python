@@ -34,7 +34,9 @@ class FakeDataStore:
     def update(self,n):
         logging.info(f'Thread {n}: starting update')
 
-        # 뮤텍스 & Lock 등 동기화(Thread synchronization) 필요
+        # 뮤텍스 & Lock 등 동기화(Thread synchronization) 필요, 여기선 x
+        # 일반적인 결과로 3이 결과로 나와야하는데 동기화가 진행되지 않아서, 재대로 된 값이 나오지않는다.
+        # 동기화가 진행되지 않아서, self.value = local_copy가 실행되기 전에, 다른 스레드가 self.value를 가져간다.
         local_copy = self.value
         local_copy += 1
         time.sleep(0.1)
